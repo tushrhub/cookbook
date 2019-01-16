@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content = "width=device-width, initial-scale="1.0">
+    <meta name = "viewport" content="width = device-width, initial-scale=1.0">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link href="https://zavrel.net/normalize.css" rel="stylesheet">
+    <title> Cook-Book </title>
+    <style>
+
+            .topnav{
+               
+               font-size: 22px;
+               overflow: hidden;
+               padding: 18px 16px;
+               color: #00D2FC;
+               background: rgba(0, 0, 0, 0.4)
+    
+            }
+            
+            .topnav a:hover{
+               
+                color:whitesmoke;
+                
+            }
+            
+            .topnav a{
+                color: #00D2FC;
+                text-align:center;
+                font-weight: bold;
+                text-decoration: none;
+    
+            }
+    
+              div{
+                height: 350px;
+                background-size: cover;
+                position: relative;
+                padding-top: 75px;
+            }
+    
+            .logo { 
+                
+                font-weight: bold;
+                color:whitesmoke;
+                text-decoration-line: none;
+            }
+    
+            p {
+                color: whitesmoke;
+                background: rgba(0, 0, 0, 0.6);
+                padding: 10px;
+                text-align: justify;
+                line-height: 18px;
+                position: absolute;
+                bottom: 75px;
+                margin: 0px;
+            }
+            span{
+
+                color: #F9F871;
+                background: #FF6F91;
+                border-radius: 3px;
+            }
+            h2{
+                text-align: center;
+                color:#F9F871;
+                text-decoration-style: solid;
+                
+            }
+            .bp{
+                background:url("http://cdn1.foodviva.com/static-content/food-images/curry-recipes/paneer-butter-masala-recipe/paneer-butter-masala-recipe.jpg");
+                background-size: cover;      
+            }
+            .dosa{
+                background: url("https://i0.wp.com/media.hungryforever.com/wp-content/uploads/2015/04/Featured-image-masala-dosa-recipe-720x378.jpg?resize=720%2C378&ssl=1");
+                background-size: cover;
+            }
+            .pasta{
+                background: url("http://cdn3.foodviva.com/static-content/food-images/snacks-recipes/white-sauce-pasta/white-sauce-pasta.jpg");
+                background-size: cover;
+            }
+
+
+        
+
+            .slides img {
+                width: 400px;
+                height: 300px;
+                border-radius: 30px;
+        
+            
+    
+        }
+        h3{
+            color: whitesmoke;
+            padding: 0px 50px 0px 50px;
+            margin-bottom: 10px;
+        }
+
+        body{
+            
+            font-family: helvetica, serif;
+            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            border-bottom-color: #00D2FC;
+            background:url("https://images.pexels.com/photos/94438/pexels-photo-94438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center; 
+        }
+      
+      @media (max-width:600px){
+          .slides img{
+              width: 250px;
+               }
+      }
+      @media (max-width:500px){
+          .slides img{
+              width: 200px;
+               }
+      }
+
+      
+     /*Query Page*/
+
+     .name{
+           padding: 15px;
+           border-radius: 10px;
+           width: 250px;
+           background: rgba(0, 0, 0, 0.7); 
+           color: whitesmoke;
+           
+            }
+            .email{
+           padding: 15px;
+           border-radius: 10px;
+           width: 250px;
+           background: rgba(0, 0, 0, 0.7); 
+           color: whitesmoke;
+           
+              }
+
+        .area{
+            
+            height: 100px;
+            width: 250px;
+           text-align: center;
+           padding: 15px;
+           border-radius: 10px;
+           background: rgba(0, 0, 0, 0.7); 
+           color: whitesmoke;
+            
+        }
+
+        .btn{
+           padding: 15px;
+           border-radius: 10px;
+           width: 100px;
+           background: rgba(0, 0, 0, 0.7); 
+           color: whitesmoke;
+            background: green;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <h1><a class="logo" href="index.html">Cook-Book</a></h1>
+    <header class="topnav">
+            <a href="index.html" class="active">About</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="recipes.html">Recipes</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="ask.html"> Query</a>
+        
+    </header>
+    
+    <div>
+     <form class="ask" action="https://formspree.io/tusharpatil8691@gmail.com" method="POST" />
+         <input type="name" class="name" name="Name" placeholder="Name"><br><br>
+         <input type="email" class="email" name="Replyto" placeholder="Email"><br><br>
+         <input type="textarea" class="area" name="Query" placeholder="your query here..."> </textarea> </input><br><br>
+     
+         <input type="submit" class="btn" value="Send"><br>
+     </form>
+    </div>
+    <script>
+    </script>
+</body>
